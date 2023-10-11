@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}  
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+.fundo{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.70; */
+}
+
+.fundo video{
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.fundo .content{
+  position: relative;
+  z-index: 1;
+}
+
+nav ul, nav li { 
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  
+}
+nav ul { 
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+nav a { 
+  display:block; 
+  text-decoration: none; 
+  padding:15px;
+  color: black;
+  font-family: Arial;
+  text-align: center;
+}
+nav .active a, nav a:hover { 
+  background-color: white; 
+  color: black; 
+  text-align: center;
+}
+
+.historia{
+  text-align: center;
+  margin: 150px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.temporadas{
+  text-align: center;
+  margin: 150px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+header{
+  padding: 5% 5%;
+}
+
+.titulo{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+footer{
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
